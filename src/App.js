@@ -1,3 +1,4 @@
+import React from "react";
 import Search from "./Search";
 import './App.css';
 
@@ -5,8 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2>Weather</h2>
         <Search />
+        <p>
+          
+        </p>
     </div>
   );
 }

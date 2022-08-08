@@ -28,16 +28,16 @@ export default function Search() {
         setCity(event.target.value);
     }
     let form = (
-        <div className="Search">
-            <form onSubmit={handleSubmit}>
-                <input type="search" onChange={updateCity} />
-                <input type="submit" value="Search" />
+        <div className="container">
+            <form className="d-flex" onSubmit={handleSubmit}>
+                <input className="form-control me-2 enter-city" type="search" autofocus="on" autocomplete="off" placeholder="City" onChange={updateCity} />
+                <button className="btn" type="submit"> Search </button>
             </form>
         </div>
     );
     if (loaded){
         return (
-            <div>
+            <div className="card">
                 {form}
                 <h2>{weather.name}</h2>
                 <ul>
