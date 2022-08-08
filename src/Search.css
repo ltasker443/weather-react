@@ -1,0 +1,37 @@
+.Search {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Search input {
+    border: 1px solid #9cd3d3;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9cd3d3;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2b4353;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    color: #2b4353;
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
