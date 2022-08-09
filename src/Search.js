@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
 
+
 export default function Search() {
     let [city, setCity]=useState("");
     let [loaded, setLoaded]=useState(false);
@@ -37,7 +38,8 @@ export default function Search() {
     );
     if (loaded){
         return (
-            <div className="card">
+            <div className="card background">
+                
                 {form}
                 <h2>{weather.name}</h2>
                 <ul>

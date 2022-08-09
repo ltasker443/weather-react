@@ -6,10 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
         <Search />
-        <p>
-          
-        </p>
     </div>
   );
 }

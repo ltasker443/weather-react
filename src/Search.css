@@ -11,6 +11,7 @@
     font-size: 16px;
     margin-top: 10px;
     padding: 10px;
+    color:#ffffff;
 }
 .card  {
 border: 2px solid #9cd3d3;
@@ -21,9 +22,16 @@ max-height: 100%;
 font-weight: 600px;
 display: block;
 }
+.background {
+    background-image: url(./beach.jpg);
+    background-size: cover;
+    width: 800px;
+    height:900px;
+    resize: both;
+}
 
 h2 {
-    color: #2b4353;
+    color: #ffffff;
     text-align: center;
     margin-top: 10px;
     padding: 0;
@@ -31,7 +39,7 @@ h2 {
 
 ul {
     list-style-type: none;
-    color: #2b4353;
+    color: #ffffff;
     font-size: 22px;
     text-align: center;
     padding: 0;
